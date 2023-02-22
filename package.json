@@ -1,27 +1,23 @@
 {
   "name": "cypress-poc",
   "version": "1.0.0",
-  "description": "POC for Cypress",
-  "main": "index.js",
+  "description": "",
+  "main": ".eslintrc.js",
   "scripts": {
-    "cypress:open": "cypress open",
     "test": "cypress run",
-    "test:chrome": "npm test -- --browser chrome",
-    "test:electron": "npm test -- --browser electron"
+    "open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7etrahedral/cypress-poc.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "cypress": "^3.8.1",
-    "cypress-cucumber-preprocessor": "^1.0.0",
-    "eslint": "^5.6.1",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "mocha": "^5.2.0",
-    "mocha-multi-reporters": "^1.1.7",
-    "mochawesome": "^3.0.2"
+  "bugs": {
+    "url": "https://github.com/7etrahedral/cypress-poc/issues"
   },
-  "dependencies": {
-    "multiple-cucumber-html-reporter": "^1.11.6"
+  "homepage": "https://github.com/7etrahedral/cypress-poc#readme",
+  "devDependencies": {
+    "cypress": "^12.6.0"
   }
 }
