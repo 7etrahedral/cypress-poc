@@ -22,5 +22,7 @@ module.exports = defineConfig({
     embeddedScreenshots: true,
     inlineAssets: true,
     saveAllAttempts: false,
+    embeddedVideos:true,
   },
+  video: false
 });
