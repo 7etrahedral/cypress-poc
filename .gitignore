@@ -4,5 +4,7 @@ cypress/reports/
 screenshots/
 .vscode/
 videos/
+.DS_Store
+cypress/.DS_Store
 
 cypress.env.json

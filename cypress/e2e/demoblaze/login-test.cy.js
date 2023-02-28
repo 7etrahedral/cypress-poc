@@ -13,6 +13,6 @@ describe('Demoblaze app Login Scenario', () => {
     cy.get(`[onclick='logIn()']`).click()
 
     cy.wait(2000)
-    cy.get('#nameofuser').should('contain', 'wibowo.bullseye')
+    cy.get('#nameofuser').should('contain', 'wibowo.bullseyekjfkjd')
   })
 })
