@@ -4,7 +4,7 @@
   "description": "",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "cypress run",
+    "test": "cypress run --spec cypress/e2e/demoblaze/*-test.cy.js",
     "open": "cypress open"
   },
   "repository": {
