@@ -26,13 +26,13 @@
     "typescript": "^4.9.5"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": false,
-    "stepDefinitions": "cypress/e2e/scenario/*.ts",
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/scenario/*.js",
     "html": {
-      "enabled": false
+      "enabled": true
     },
     "json": {
-      "enabled": true,
+      "enabled": false,
       "formatter": "cypress/support/cucumber-json-formatter"
     }
   }

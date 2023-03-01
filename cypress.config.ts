@@ -6,7 +6,7 @@ import createEsbuildPlugin from "@badeball/cypress-cucumber-preprocessor/esbuild
 export default defineConfig({
   reporter: "",
   e2e: {
-    reporter: 'mochawesome',
+    reporter: 'json',
     specPattern: "**/*.feature",
     async setupNodeEvents(
       on: Cypress.PluginEvents,
@@ -25,14 +25,5 @@ export default defineConfig({
       // Make sure to return the config object as it might have been modified by the plugin.
       return config;
     },
-  //   setupNodeEvents(on, config) {
-  //     // implement node event listeners here
-  //   },
-  //   experimentalRunAllSpecs: true,
-  //   experimentalStudio: true,
-  // },
-  // viewport: {
-  //   viewportHeight: 1024,
-  //   viewportWidth: 768
   },
 });
